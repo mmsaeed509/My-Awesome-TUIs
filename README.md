@@ -6,16 +6,16 @@
 
 *A curated collection of powerful Terminal User Interface (TUI) applications for developers and power users*
 
-[![GitHub stars](https://img.shields.io/github/stars/o0xwolf/My-Awesome-TUIs?style=social)](https://github.com/o0xwolf/My-Awesome-TUIs)
-[![GitHub forks](https://img.shields.io/github/forks/o0xwolf/My-Awesome-TUIs?style=social)](https://github.com/o0xwolf/My-Awesome-TUIs)
-[![GitHub issues](https://img.shields.io/github/issues/o0xwolf/My-Awesome-TUIs)](https://github.com/o0xwolf/My-Awesome-TUIs/issues)
-[![GitHub license](https://img.shields.io/github/license/o0xwolf/My-Awesome-TUIs)](https://github.com/o0xwolf/My-Awesome-TUIs/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/mmsaeed509/My-Awesome-TUIs?style=social)](https://github.com/mmsaeed509/My-Awesome-TUIs)
+[![GitHub forks](https://img.shields.io/github/forks/mmsaeed509/My-Awesome-TUIs?style=social)](https://github.com/mmsaeed509/My-Awesome-TUIs)
+[![GitHub issues](https://img.shields.io/github/issues/mmsaeed509/My-Awesome-TUIs)](https://github.com/mmsaeed509/My-Awesome-TUIs/issues)
+[![GitHub license](https://img.shields.io/github/license/mmsaeed509/My-Awesome-TUIs)](https://github.com/mmsaeed509/My-Awesome-TUIs/blob/main/LICENSE)
 
 </div>
 
 ## 📋 Table of Contents
 
-- [� Table of Contents](#-table-of-contents)
+- [📋 Table of Contents](#-table-of-contents)
 - [🎯 About](#-about)
 - [📂 Categories](#-categories)
 - [🔍 System Monitoring](#-system-monitoring)
