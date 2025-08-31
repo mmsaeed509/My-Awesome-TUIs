@@ -1,4 +1,6 @@
+<h3 align="center"> My Awesome TUI Apps </h3>
 
+<img src="imgs/TUIs.png" alt="TUIs">
 
 > You can find out a whole bunch of TUI Apps here [**`Exodia-TUI-CLI-Apps`**](https://github.com/Exodia-OS/Exodia-TUI-CLI-Apps)
 
@@ -49,27 +51,29 @@
 - [**`mirro-rs`**](https://github.com/rtkay123/mirro-rs): An Arch Linux mirrorlist manager with a TUI.
   - ![](./imgs/mirro-rs.png)
 
-- [**``**](): .
-  - ![](./imgs/)
 
-- [**``**](): .
-  - ![](./imgs/)
-
-- [**``**](): .
-  - ![](./imgs/)
-
-- [**``**](): .
-  - ![](./imgs/)
-
-- [**``**](): .
-  - ![](./imgs/)
-
-- [**``**](): .
-  - ![](./imgs/)
-
-- [**``**](): .
-  - ![](./imgs/)
 <!-- 
+- [**``**](): .
+  - ![](./imgs/)
+
+- [**``**](): .
+  - ![](./imgs/)
+
+- [**``**](): .
+  - ![](./imgs/)
+
+- [**``**](): .
+  - ![](./imgs/)
+
+- [**``**](): .
+  - ![](./imgs/)
+
+- [**``**](): .
+  - ![](./imgs/)
+
+- [**``**](): .
+  - ![](./imgs/)
+
 - [**``**](): .
   - ![](./imgs/)
 -->
