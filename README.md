@@ -9,7 +9,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/mmsaeed509/My-Awesome-TUIs?style=social)](https://github.com/mmsaeed509/My-Awesome-TUIs)
 [![GitHub forks](https://img.shields.io/github/forks/mmsaeed509/My-Awesome-TUIs?style=social)](https://github.com/mmsaeed509/My-Awesome-TUIs)
 [![GitHub issues](https://img.shields.io/github/issues/mmsaeed509/My-Awesome-TUIs)](https://github.com/mmsaeed509/My-Awesome-TUIs/issues)
-[![GitHub license](https://img.shields.io/github/license/mmsaeed509/My-Awesome-TUIs)](https://github.com/mmsaeed509/My-Awesome-TUIs/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/mmsaeed509/My-Awesome-TUIs)](https://github.com/mmsaeed509/My-Awesome-TUIs/blob/master/LICENSE)
 
 </div>
 
