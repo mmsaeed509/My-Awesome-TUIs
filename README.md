@@ -1,79 +1,310 @@
-<h3 align="center"> My Awesome TUI Apps </h3>
+<h1 align="center"> 🖥️ My Awesome TUI Apps </h1>
 
-<img src="imgs/TUIs.png" alt="TUIs">
+<div align="center">
 
-> You can find out a whole bunch of TUI Apps here [**`Exodia-TUI-CLI-Apps`**](https://github.com/Exodia-OS/Exodia-TUI-CLI-Apps)
+![TUIs Collection](imgs/TUIs.png)
 
-- [**`Below`**](https://github.com/facebookincubator/below): A time traveling resource monitor for modern Linux systems
-  - ![](./imgs/below.png)
-  
+*A curated collection of powerful Terminal User Interface (TUI) applications for developers and power users*
 
-- [**`posting`**](https://github.com/darrenburns/posting): The modern API client that lives in your terminal.
-  - ![](./imgs/posting.png)
+[![GitHub stars](https://img.shields.io/github/stars/o0xwolf/My-Awesome-TUIs?style=social)](https://github.com/o0xwolf/My-Awesome-TUIs)
+[![GitHub forks](https://img.shields.io/github/forks/o0xwolf/My-Awesome-TUIs?style=social)](https://github.com/o0xwolf/My-Awesome-TUIs)
+[![GitHub issues](https://img.shields.io/github/issues/o0xwolf/My-Awesome-TUIs)](https://github.com/o0xwolf/My-Awesome-TUIs/issues)
+[![GitHub license](https://img.shields.io/github/license/o0xwolf/My-Awesome-TUIs)](https://github.com/o0xwolf/My-Awesome-TUIs/blob/main/LICENSE)
 
+</div>
 
-- [**`oxker`**](https://github.com/mrjackwills/oxker): A simple tui to view & control docker containers.
-  - ![](./imgs/oxker.png)
+## 📋 Table of Contents
 
-- [**`superfile`**](https://github.com/yorukot/superfile): Pretty fancy and modern terminal file manager.
-  - ![](./imgs/superfile.png)
+- [� Table of Contents](#-table-of-contents)
+- [🎯 About](#-about)
+- [📂 Categories](#-categories)
+- [🔍 System Monitoring](#-system-monitoring)
+  - [Below](#below)
+- [🛠️ Development Tools](#️-development-tools)
+  - [LazyGit](#lazygit)
+- [🐳 Container Management](#-container-management)
+  - [LazyDocker](#lazydocker)
+  - [Oxker](#oxker)
+  - [Ctop](#ctop)
+- [📁 File Management](#-file-management)
+  - [Superfile](#superfile)
+- [🌐 Web \& Media](#-web--media)
+  - [Browsh](#browsh)
+  - [GopherTube](#gophertube)
+  - [Posting](#posting)
+- [☸️ Kubernetes \& DevOps](#️-kubernetes--devops)
+  - [K9s](#k9s)
+  - [Updo](#updo)
+- [⚙️ Utilities](#️-utilities)
+  - [Smassh](#smassh)
+  - [KBT](#kbt)
+  - [Mirro-rs](#mirro-rs)
+- [🚀 Installation](#-installation)
+  - [Using Package Managers](#using-package-managers)
+  - [Manual Installation](#manual-installation)
+  - [Prerequisites](#prerequisites)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
+## 🎯 About
 
-- [**`GopherTube`**](https://github.com/krishnassh/gophertube): A modern terminal user interface for searching and watching YouTube videos using mpv and chafa.
-  - ![](./imgs/GopherTube.png)
+This repository showcases a carefully curated collection of Terminal User Interface (TUI) applications that enhance productivity and provide powerful functionality directly in your terminal. These tools are perfect for developers, system administrators, and power users who prefer keyboard-driven interfaces.
 
+> 💡 **Pro Tip**: Check out [**Exodia-TUI-CLI-Apps**](https://github.com/Exodia-OS/Exodia-TUI-CLI-Apps) for an even more comprehensive collection of TUI applications!
 
-- [**`browsh`**](https://github.com/browsh-org/browsh): A fully-modern text-based browser, rendering to TTY and browsers.
-  - ![](./imgs/browsh.gif)
+## 📂 Categories
 
+The applications are organized into the following categories for easy navigation:
 
-- [**`updo`**](https://github.com/Owloops/updo): Uptime monitoring CLI tool with alerting and advanced settings.
-  - ![](./imgs/updo.png)
+- 🔍 **System Monitoring** - Resource monitoring and system analysis tools
+- 🛠️ **Development Tools** - Git management and development utilities
+- 🐳 **Container Management** - Docker and container orchestration tools
+- 📁 **File Management** - File system navigation and management
+- 🌐 **Web & Media** - Web browsing and media consumption
+- ☸️ **Kubernetes & DevOps** - Kubernetes management and DevOps tools
+- ⚙️ **Utilities** - Various utility applications
 
-- [**`k9s`**](https://github.com/derailed/k9s): 🐶 Kubernetes CLI To Manage Your Clusters In Style!.
-  - ![](./imgs/k9s.png)
+---
 
-- [**`ctop`**](https://github.com/bcicen/ctop): .
-  - ![](./imgs/ctop.gif)
+## 🔍 System Monitoring
 
-- [**`smassh`**](https://github.com/kraanzu/smassh): Smassh your Keyboard, TUI Edition.
-  - ![](./imgs/smassh.png)
+### [Below](https://github.com/facebookincubator/below)
+A time traveling resource monitor for modern Linux systems with advanced debugging capabilities.
 
-- [**`kbt`**](https://github.com/bloznelis/kbt): Keyboard tester in terminal.
-  - ![](./imgs/kbt.gif)
+![Below Demo](imgs/below.png)
 
-- [**`lazydocker`**](https://github.com/jesseduffield/lazydocker): The lazier way to manage everything docker.
-  - ![](./imgs/lazydocker.gif)
+**Features:**
+- Real-time system resource monitoring
+- Historical data analysis
+- Advanced debugging tools
+- Modern Linux system support
 
-- [**`lazygit`**](https://github.com/jesseduffield/lazygit): simple terminal UI for git commands.
-  - ![](./imgs/lazygit.gif)
+---
 
-- [**`mirro-rs`**](https://github.com/rtkay123/mirro-rs): An Arch Linux mirrorlist manager with a TUI.
-  - ![](./imgs/mirro-rs.png)
+## 🛠️ Development Tools
 
+### [LazyGit](https://github.com/jesseduffield/lazygit)
+Simple terminal UI for git commands with an intuitive interface.
 
-<!-- 
-- [**``**](): .
-  - ![](./imgs/)
+![LazyGit Demo](imgs/lazygit.gif)
 
-- [**``**](): .
-  - ![](./imgs/)
+**Features:**
+- Visual git workflow
+- Branch management
+- Commit history
+- Interactive rebasing
 
-- [**``**](): .
-  - ![](./imgs/)
+---
 
-- [**``**](): .
-  - ![](./imgs/)
+## 🐳 Container Management
 
-- [**``**](): .
-  - ![](./imgs/)
+### [LazyDocker](https://github.com/jesseduffield/lazydocker)
+The lazier way to manage everything Docker with a beautiful TUI.
 
-- [**``**](): .
-  - ![](./imgs/)
+![LazyDocker Demo](imgs/lazydocker.gif)
 
-- [**``**](): .
-  - ![](./imgs/)
+**Features:**
+- Container management
+- Image management
+- Volume management
+- Network monitoring
 
-- [**``**](): .
-  - ![](./imgs/)
--->
+### [Oxker](https://github.com/mrjackwills/oxker)
+A simple TUI to view & control Docker containers with ease.
+
+![Oxker Demo](imgs/oxker.png)
+
+**Features:**
+- Container status overview
+- Start/stop containers
+- Resource usage monitoring
+- Log viewing
+
+### [Ctop](https://github.com/bcicen/ctop)
+Top-like interface for container metrics with real-time monitoring.
+
+![Ctop Demo](imgs/ctop.gif)
+
+**Features:**
+- Real-time container metrics
+- Resource usage visualization
+- Container management actions
+- Multi-container support
+
+---
+
+## 📁 File Management
+
+### [Superfile](https://github.com/yorukot/superfile)
+Pretty fancy and modern terminal file manager with advanced features.
+
+![Superfile Demo](imgs/superfile.png)
+
+**Features:**
+- Modern file navigation
+- File operations
+- Search functionality
+- Customizable interface
+
+---
+
+## 🌐 Web & Media
+
+### [Browsh](https://github.com/browsh-org/browsh)
+A fully-modern text-based browser, rendering to TTY and browsers.
+
+![Browsh Demo](imgs/browsh.gif)
+
+**Features:**
+- Full web browser functionality
+- JavaScript support
+- Modern web rendering
+- Cross-platform compatibility
+
+### [GopherTube](https://github.com/krishnassh/gophertube)
+A modern terminal user interface for searching and watching YouTube videos using mpv and chafa.
+
+![GopherTube Demo](imgs/GopherTube.png)
+
+**Features:**
+- YouTube video search
+- Video playback with mpv
+- Thumbnail previews
+- Playlist management
+
+### [Posting](https://github.com/darrenburns/posting)
+The modern API client that lives in your terminal.
+
+![Posting Demo](imgs/posting.png)
+
+**Features:**
+- REST API testing
+- Request/response visualization
+- Environment management
+- Request history
+
+---
+
+## ☸️ Kubernetes & DevOps
+
+### [K9s](https://github.com/derailed/k9s)
+🐶 Kubernetes CLI To Manage Your Clusters In Style!
+
+![K9s Demo](imgs/k9s.png)
+
+**Features:**
+- Kubernetes cluster management
+- Pod monitoring
+- Service management
+- Resource visualization
+
+### [Updo](https://github.com/Owloops/updo)
+Uptime monitoring CLI tool with alerting and advanced settings.
+
+![Updo Demo](imgs/updo.png)
+
+**Features:**
+- Website uptime monitoring
+- Alert notifications
+- Custom monitoring intervals
+- Status reporting
+
+---
+
+## ⚙️ Utilities
+
+### [Smassh](https://github.com/kraanzu/smassh)
+Smassh your Keyboard, TUI Edition - a keyboard testing and training tool.
+
+![Smassh Demo](imgs/smassh.png)
+
+**Features:**
+- Keyboard testing
+- Typing speed measurement
+- Custom text input
+- Performance analytics
+
+### [KBT](https://github.com/bloznelis/kbt)
+Keyboard tester in terminal with comprehensive key testing.
+
+![KBT Demo](imgs/kbt.gif)
+
+**Features:**
+- Individual key testing
+- Key combination testing
+- Keyboard layout verification
+- Input validation
+
+### [Mirro-rs](https://github.com/rtkay123/mirro-rs)
+An Arch Linux mirrorlist manager with a TUI for optimal package downloads.
+
+![Mirro-rs Demo](imgs/mirro-rs.png)
+
+**Features:**
+- Mirror speed testing
+- Automatic mirror selection
+- Manual mirror management
+- Performance optimization
+
+---
+
+## 🚀 Installation
+
+Most of these applications can be installed using your system's package manager or through their respective installation methods:
+
+### Using Package Managers
+
+```bash
+# Arch Linux / Manjaro
+yay -S below posting oxker superfile browsh updo k9s ctop lazydocker lazygit
+
+# Ubuntu / Debian
+sudo apt install ctop
+
+# macOS
+brew install k9s ctop lazydocker lazygit
+```
+
+### Manual Installation
+
+For applications not available in package managers, check their respective GitHub repositories for installation instructions.
+
+### Prerequisites
+
+- Terminal with true color support
+- Modern Linux/macOS system
+- Git (for cloning repositories)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to:
+
+1. Fork this repository
+2. Add new TUI applications
+3. Improve documentation
+4. Fix issues
+5. Suggest enhancements
+
+Please ensure that any added applications:
+- Have an active GitHub repository
+- Include a screenshot or GIF demo
+- Are well-maintained and functional
+- Provide value to developers or power users
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+<div align="center">
+
+**⭐ Star this repository if you found it helpful!**
+
+Made with ❤️ for the TUI community
+
+</div>
