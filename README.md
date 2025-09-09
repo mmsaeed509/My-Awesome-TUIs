@@ -39,6 +39,7 @@
   - [Smassh](#smassh)
   - [KBT](#kbt)
   - [Mirro-rs](#mirro-rs)
+  - [Impala](#impala)
 - [🚀 Installation](#-installation)
   - [Using Package Managers](#using-package-managers)
   - [Manual Installation](#manual-installation)
@@ -246,6 +247,18 @@ An Arch Linux mirrorlist manager with a TUI for optimal package downloads.
 - Manual mirror management
 - Performance optimization
 
+### [Impala](https://github.com/pythops/impala)
+🛜 TUI for managing wifi on Linux with an intuitive interface.
+
+![Impala Demo](imgs/impala.png)
+
+**Features:**
+- WiFi network scanning and connection
+- Device power management
+- Access point creation
+- Known networks management
+- Custom keybindings support
+
 ---
 
 ## 🚀 Installation
@@ -256,7 +269,7 @@ Most of these applications can be installed using your system's package manager 
 
 ```bash
 # Arch Linux / Manjaro
-yay -S below posting oxker superfile browsh updo k9s ctop lazydocker lazygit
+yay -S below posting oxker superfile browsh updo k9s ctop lazydocker lazygit impala
 
 # Ubuntu / Debian
 sudo apt install ctop
