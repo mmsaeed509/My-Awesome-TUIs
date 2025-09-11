@@ -22,6 +22,7 @@
   - [Below](#below)
 - [🛠️ Development Tools](#️-development-tools)
   - [LazyGit](#lazygit)
+  - [JiraTUI](#jiratui)
 - [🐳 Container Management](#-container-management)
   - [LazyDocker](#lazydocker)
   - [Oxker](#oxker)
@@ -43,6 +44,7 @@
 - [🚀 Installation](#-installation)
   - [Using Package Managers](#using-package-managers)
   - [Manual Installation](#manual-installation)
+    - [JiraTUI (Python)](#jiratui-python)
   - [Prerequisites](#prerequisites)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
@@ -94,6 +96,18 @@ Simple terminal UI for git commands with an intuitive interface.
 - Branch management
 - Commit history
 - Interactive rebasing
+
+### [JiraTUI](https://github.com/whyisdifficult/jiratui)
+A Textual User Interface for interacting with Atlassian Jira from your shell.
+
+![JiraTUI Demo](imgs/jiratui.png)
+
+**Features:**
+- Launch full TUI for Jira issues and workflows
+- Search, update, and delete issues
+- Manage comments and users
+- Config via env, .env or YAML
+- Ships CLI with `ui`, `issues`, `comments`, `users`
 
 ---
 
@@ -281,6 +295,16 @@ brew install k9s ctop lazydocker lazygit
 ### Manual Installation
 
 For applications not available in package managers, check their respective GitHub repositories for installation instructions.
+
+#### JiraTUI (Python)
+
+```bash
+# Using uv (recommended)
+uv add jiratui
+
+# Or using pip
+pip install jiratui
+```
 
 ### Prerequisites
 
