@@ -35,6 +35,7 @@
   - [Posting](#posting)
 - [☸️ Kubernetes \& DevOps](#️-kubernetes--devops)
   - [K9s](#k9s)
+  - [KubeTUI](#kubetui)
   - [Updo](#updo)
 - [⚙️ Utilities](#️-utilities)
   - [Smassh](#smassh)
@@ -213,6 +214,19 @@ The modern API client that lives in your terminal.
 - Service management
 - Resource visualization
 
+### [KubeTUI](https://github.com/sarub0b0/kubetui)
+An intuitive Terminal User Interface (TUI) tool for real-time monitoring and exploration of Kubernetes resources.
+
+![KubeTUI Demo](imgs/kubetui.webp)
+
+**Features:**
+- Real-time Kubernetes resource monitoring
+- Multi-namespace support
+- Advanced log filtering and search
+- Interactive resource exploration
+- YAML viewing and editing
+- Context and namespace switching
+
 ### [Updo](https://github.com/Owloops/updo)
 Uptime monitoring CLI tool with alerting and advanced settings.
 
@@ -304,6 +318,13 @@ uv add jiratui
 
 # Or using pip
 pip install jiratui
+```
+
+#### KubeTUI (Rust)
+
+```bash
+# Using cargo
+cargo install kubetui
 ```
 
 ### Prerequisites
