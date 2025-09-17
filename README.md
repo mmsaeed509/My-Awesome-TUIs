@@ -46,6 +46,7 @@
   - [Using Package Managers](#using-package-managers)
   - [Manual Installation](#manual-installation)
     - [JiraTUI (Python)](#jiratui-python)
+    - [KubeTUI (Rust)](#kubetui-rust)
   - [Prerequisites](#prerequisites)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
@@ -355,7 +356,7 @@ Please ensure that any added applications:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the `GPL-3.0` License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
