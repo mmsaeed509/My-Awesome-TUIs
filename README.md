@@ -20,6 +20,10 @@
 - [📂 Categories](#-categories)
 - [🔍 System Monitoring](#-system-monitoring)
   - [Below](#below)
+  - [s-TUI](#s-tui)
+  - [nvtop](#nvtop)
+  - [asitop](#asitop)
+  - [WaveMon](#wavemon)
 - [🛠️ Development Tools](#️-development-tools)
   - [LazyGit](#lazygit)
   - [JiraTUI](#jiratui)
@@ -47,6 +51,7 @@
   - [Manual Installation](#manual-installation)
     - [JiraTUI (Python)](#jiratui-python)
     - [KubeTUI (Rust)](#kubetui-rust)
+    - [asitop (Python)](#asitop-python)
   - [Prerequisites](#prerequisites)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
@@ -83,6 +88,53 @@ A time traveling resource monitor for modern Linux systems with advanced debuggi
 - Historical data analysis
 - Advanced debugging tools
 - Modern Linux system support
+
+### [s-TUI](https://github.com/amanusk/s-tui)
+Terminal-based CPU stress and monitoring utility with an intuitive interface.
+
+![s-TUI Demo](imgs/s-tui.gif)
+
+**Features:**
+- CPU stress testing
+- Real-time temperature monitoring
+- System performance metrics
+- Interactive terminal interface
+
+### [nvtop](https://github.com/Syllo/nvtop)
+GPU & Accelerator process monitoring for AMD, Apple, Huawei, Intel, NVIDIA and Qualcomm.
+
+![nvtop Demo](imgs/nvtop.png)
+
+**Features:**
+- Multi-vendor GPU support
+- Process monitoring
+- Memory usage tracking
+- Temperature monitoring
+- Power consumption metrics
+
+### [asitop](https://github.com/tlkh/asitop)
+Perf monitoring CLI tool for Apple Silicon with detailed performance insights.
+
+![asitop Demo](imgs/asitop.png)
+
+**Features:**
+- Apple Silicon optimization
+- Performance counter monitoring
+- CPU and GPU metrics
+- Memory bandwidth tracking
+- Power efficiency analysis
+
+### [WaveMon](https://github.com/uoaerg/wavemon)
+wavemon is an ncurses-based monitoring application for wireless network devices on Linux.
+
+![WaveMon Demo](imgs/wavemon.png)
+
+**Features:**
+- Wireless network monitoring
+- Signal strength tracking
+- Network quality analysis
+- Real-time statistics
+- Linux wireless device support
 
 ---
 
@@ -298,13 +350,13 @@ Most of these applications can be installed using your system's package manager 
 
 ```bash
 # Arch Linux / Manjaro
-yay -S below posting oxker superfile browsh updo k9s ctop lazydocker lazygit impala
+yay -S below posting oxker superfile browsh updo k9s ctop lazydocker lazygit impala s-tui nvtop wavemon
 
 # Ubuntu / Debian
-sudo apt install ctop
+sudo apt install ctop s-tui nvtop wavemon
 
 # macOS
-brew install k9s ctop lazydocker lazygit
+brew install k9s ctop lazydocker lazygit s-tui nvtop
 ```
 
 ### Manual Installation
@@ -326,6 +378,13 @@ pip install jiratui
 ```bash
 # Using cargo
 cargo install kubetui
+```
+
+#### asitop (Python)
+
+```bash
+# Using pip
+pip install asitop
 ```
 
 ### Prerequisites
