@@ -27,6 +27,7 @@
 - [🛠️ Development Tools](#️-development-tools)
   - [LazyGit](#lazygit)
   - [JiraTUI](#jiratui)
+  - [Neovate Code](#neovate-code)
 - [🐳 Container Management](#-container-management)
   - [LazyDocker](#lazydocker)
   - [Oxker](#oxker)
@@ -52,6 +53,7 @@
     - [JiraTUI (Python)](#jiratui-python)
     - [KubeTUI (Rust)](#kubetui-rust)
     - [asitop (Python)](#asitop-python)
+    - [Neovate Code (Node.js)](#neovate-code-nodejs)
   - [Prerequisites](#prerequisites)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
@@ -162,6 +164,18 @@ A Textual User Interface for interacting with Atlassian Jira from your shell.
 - Manage comments and users
 - Config via env, .env or YAML
 - Ships CLI with `ui`, `issues`, `comments`, `users`
+
+### [Neovate Code](https://github.com/neovateai/neovate-code)
+Neovate Code is a code agent to enhance your development. Use it to generate code, fix bugs, review code, add tests, and more. Supports interactive and headless modes.
+
+![Neovate Code Demo](imgs/neovate-code.png)
+
+**Features:**
+- Interactive and headless automation
+- Code generation and refactoring
+- Bug fixing and code review
+- Test generation
+- Provider-agnostic with easy model selection
 
 ---
 
@@ -385,6 +399,18 @@ cargo install kubetui
 ```bash
 # Using pip
 pip install asitop
+```
+
+#### Neovate Code (Node.js)
+
+```bash
+# Using npm (global)
+npm install -g @neovate/code
+
+# Run
+neovate
+# or
+neo
 ```
 
 ### Prerequisites
