@@ -43,6 +43,7 @@
   - [K9s](#k9s)
   - [KubeTUI](#kubetui)
   - [Updo](#updo)
+  - [Stakpak](#stakpak)
 - [⚙️ Utilities](#️-utilities)
   - [Smassh](#smassh)
   - [KBT](#kbt)
@@ -317,6 +318,18 @@ Uptime monitoring CLI tool with alerting and advanced settings.
 - Alert notifications
 - Custom monitoring intervals
 - Status reporting
+
+### [Stakpak](https://stakpak.dev)
+AI DevOps Agent in your Terminal.
+
+![Stakpak Demo](imgs/stakpak.webm)
+
+**Features:**
+- AI-powered DevOps automation
+- Terminal-based interface
+- Intelligent workflow management
+- DevOps task automation
+- Infrastructure management assistance
 
 ---
 
