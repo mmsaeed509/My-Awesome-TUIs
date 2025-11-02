@@ -322,7 +322,7 @@ Uptime monitoring CLI tool with alerting and advanced settings.
 ### [Stakpak](https://stakpak.dev)
 AI DevOps Agent in your Terminal.
 
-![Stakpak Demo](imgs/stakpak.webm)
+![Stakpak Demo](imgs/stakpak.png)
 
 **Features:**
 - AI-powered DevOps automation
