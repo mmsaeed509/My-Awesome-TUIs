@@ -38,6 +38,7 @@
   - [Browsh](#browsh)
   - [GopherTube](#gophertube)
   - [Posting](#posting)
+  - [Feroxbuster](#feroxbuster)
 - [☸️ Kubernetes \& DevOps](#️-kubernetes--devops)
   - [K9s](#k9s)
   - [KubeTUI](#kubetui)
@@ -265,6 +266,18 @@ The modern API client that lives in your terminal.
 - Request/response visualization
 - Environment management
 - Request history
+
+### [Feroxbuster](https://github.com/epi052/feroxbuster)
+A fast, simple, recursive content discovery tool written in Rust.
+
+![Feroxbuster Demo](imgs/feroxbuster.gif)
+
+**Features:**
+- Fast recursive content discovery
+- Multi-threaded scanning
+- Customizable wordlists
+- Advanced filtering options
+- JSON output support
 
 ---
 
