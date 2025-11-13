@@ -39,6 +39,8 @@
   - [GopherTube](#gophertube)
   - [Posting](#posting)
   - [Feroxbuster](#feroxbuster)
+- [💬 Communication](#-communication)
+  - [Discordo](#discordo)
 - [☸️ Kubernetes \& DevOps](#️-kubernetes--devops)
   - [K9s](#k9s)
   - [KubeTUI](#kubetui)
@@ -49,6 +51,8 @@
   - [KBT](#kbt)
   - [Mirro-rs](#mirro-rs)
   - [Impala](#impala)
+  - [TUFW](#tufw)
+  - [BlueTUI](#bluetui)
 - [🚀 Installation](#-installation)
   - [Using Package Managers](#using-package-managers)
   - [Manual Installation](#manual-installation)
@@ -75,6 +79,7 @@ The applications are organized into the following categories for easy navigation
 - 🐳 **Container Management** - Docker and container orchestration tools
 - 📁 **File Management** - File system navigation and management
 - 🌐 **Web & Media** - Web browsing and media consumption
+- 💬 **Communication** - Chat and messaging clients
 - ☸️ **Kubernetes & DevOps** - Kubernetes management and DevOps tools
 - ⚙️ **Utilities** - Various utility applications
 
@@ -282,6 +287,22 @@ A fast, simple, recursive content discovery tool written in Rust.
 
 ---
 
+## 💬 Communication
+
+### [Discordo](https://github.com/ayn2op/discordo)
+A lightweight, secure, and feature-rich Discord terminal (TUI) client.
+
+![Discordo Demo](imgs/discordo.png)
+
+**Features:**
+- Lightweight Discord client
+- Secure messaging
+- Feature-rich interface
+- Terminal-based communication
+- Low resource usage
+
+---
+
 ## ☸️ Kubernetes & DevOps
 
 ### [K9s](https://github.com/derailed/k9s)
@@ -379,6 +400,30 @@ An Arch Linux mirrorlist manager with a TUI for optimal package downloads.
 - Access point creation
 - Known networks management
 - Custom keybindings support
+
+### [TUFW](https://github.com/peltho/tufw)
+Terminal UI for ufw - manage your firewall with ease.
+
+![TUFW Demo](imgs/tufw.gif)
+
+**Features:**
+- UFW firewall management
+- Rule creation and editing
+- Status monitoring
+- User-friendly interface
+- Linux firewall control
+
+### [BlueTUI](https://github.com/pythops/bluetui)
+🛜 TUI for managing bluetooth on Linux.
+
+![BlueTUI Demo](imgs/bluetui.gif)
+
+**Features:**
+- Bluetooth device management
+- Device pairing and connection
+- Adapter control
+- Device scanning
+- Linux bluetooth support
 
 ---
 
