@@ -37,6 +37,7 @@
 - [🌐 Web \& Media](#-web--media)
   - [Browsh](#browsh)
   - [GopherTube](#gophertube)
+  - [Spotify TUI](#spotify-tui)
   - [Posting](#posting)
   - [Feroxbuster](#feroxbuster)
 - [💬 Communication](#-communication)
@@ -261,6 +262,11 @@ A modern terminal user interface for searching and watching YouTube videos using
 - Video playback with mpv
 - Thumbnail previews
 - Playlist management
+
+### [Spotify TUI](https://github.com/Rigellute/spotify-tui)
+Spotify for the terminal written in Rust 🚀
+
+![Spotify TUI Demo](imgs/spt.gif)
 
 ### [Posting](https://github.com/darrenburns/posting)
 The modern API client that lives in your terminal.
