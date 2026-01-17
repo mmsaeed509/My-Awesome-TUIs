@@ -24,6 +24,7 @@
   - [nvtop](#nvtop)
   - [asitop](#asitop)
   - [WaveMon](#wavemon)
+  - [witr](#witr)
 - [🛠️ Development Tools](#️-development-tools)
   - [LazyGit](#lazygit)
   - [JiraTUI](#jiratui)
@@ -145,6 +146,17 @@ wavemon is an ncurses-based monitoring application for wireless network devices 
 - Network quality analysis
 - Real-time statistics
 - Linux wireless device support
+
+### [witr](https://github.com/pranshuparmar/witr)
+witr exists to answer a single question: Why is this running?
+
+![witr Demo](imgs/witr.png)
+
+**Features:**
+- Explains process existence (Name, PID, Port targets)
+- Tracks ancestry chain and source
+- Context awareness (Git, Docker, Kubernetes)
+- Multiple output formats (Short, Tree)
 
 ---
 
