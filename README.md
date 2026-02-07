@@ -46,6 +46,8 @@
 - [☸️ Kubernetes \& DevOps](#️-kubernetes--devops)
   - [K9s](#k9s)
   - [KubeTUI](#kubetui)
+  - [Argonaut](#argonaut)
+  - [ArTUI](#artui)
   - [Updo](#updo)
   - [Stakpak](#stakpak)
 - [⚙️ Utilities](#️-utilities)
@@ -346,6 +348,33 @@ An intuitive Terminal User Interface (TUI) tool for real-time monitoring and exp
 - Interactive resource exploration
 - YAML viewing and editing
 - Context and namespace switching
+
+### [Argonaut](https://github.com/darksworm/argonaut)
+🐙 **Argonaut — Argo CD TUI** · *License: [GPL-3.0](https://github.com/darksworm/argonaut/blob/main/LICENSE)*
+
+Argonaut is a keyboard-first terminal UI for Argo CD, built with Bubbletea. Browse apps, scope by clusters/namespaces/projects, stream live resource status, trigger syncs, inspect diffs in your favorite pager, and roll back safely — all without leaving your terminal.
+
+![Argonaut Demo](imgs/argonaut.png)
+
+**Features:**
+- Instant app browsing with live updates (NDJSON streams)
+- Scoped navigation: clusters → namespaces → projects → apps
+- Command palette for sync, diff, rollback, resources
+- Live resources view per app with health & sync status
+- External diff integration (delta, git)
+- Guided rollback with revision metadata
+- Keyboard-only, Vim-like workflow
+
+### [ArTUI](https://github.com/larntz/artui)
+ArTUI is a TUI app for interacting with Argo CD and managing apps.
+
+![ArTUI Demo](imgs/artui.png)
+
+**Features:**
+- Browse and manage Argo CD applications
+- Refresh and sync apps from the terminal
+- Search and navigate application list
+- Keyboard-driven interface (j/k, arrows)
 
 ### [Updo](https://github.com/Owloops/updo)
 Uptime monitoring CLI tool with alerting and advanced settings.
