@@ -50,6 +50,7 @@
   - [Updo](#updo)
   - [Stakpak](#stakpak)
 - [⚙️ Utilities](#️-utilities)
+  - [Nushell](#nushell)
   - [Smassh](#smassh)
   - [KBT](#kbt)
   - [Mirro-rs](#mirro-rs)
@@ -386,6 +387,20 @@ AI DevOps Agent in your Terminal.
 
 ## ⚙️ Utilities
 
+### [Nushell](https://github.com/nushell/nushell)
+A new type of shell with structured data pipelines and modern UX.
+
+![Nushell Demo](imgs/Nushell.png)
+
+**Features:**
+- Cross-platform (Linux, macOS, Windows, BSD)
+- Structured data pipelines (tables, not raw text)
+- Built-in support for JSON, YAML, SQLite, Excel, and more
+- Powerful plugin system
+- Typed data with helpful error messages
+
+*[nushell.sh](https://www.nushell.sh/)*
+
 ### [Smassh](https://github.com/kraanzu/smassh)
 Smassh your Keyboard, TUI Edition - a keyboard testing and training tool.
 
@@ -465,13 +480,13 @@ Most of these applications can be installed using your system's package manager 
 
 ```bash
 # Arch Linux / Manjaro
-yay -S below posting oxker superfile browsh updo k9s ctop lazydocker lazygit impala s-tui nvtop wavemon
+yay -S below posting oxker superfile browsh updo k9s ctop lazydocker lazygit impala s-tui nvtop wavemon nushell
 
 # Ubuntu / Debian
 sudo apt install ctop s-tui nvtop wavemon
 
 # macOS
-brew install k9s ctop lazydocker lazygit s-tui nvtop
+brew install k9s ctop lazydocker lazygit s-tui nvtop nushell
 ```
 
 ### Manual Installation
