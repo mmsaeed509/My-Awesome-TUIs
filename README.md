@@ -51,6 +51,7 @@
   - [Stakpak](#stakpak)
 - [⚙️ Utilities](#️-utilities)
   - [Nushell](#nushell)
+  - [SSHM](#sshm)
   - [Smassh](#smassh)
   - [KBT](#kbt)
   - [Mirro-rs](#mirro-rs)
@@ -400,6 +401,18 @@ A new type of shell with structured data pipelines and modern UX.
 - Typed data with helpful error messages
 
 *[nushell.sh](https://www.nushell.sh/)*
+
+### [SSHM](https://github.com/Gu1llaum-3/sshm)
+**SSHM — SSH Manager** is a beautiful command-line tool that transforms how you manage and connect to your SSH hosts. Built with Go and featuring an intuitive TUI interface, it makes SSH connection management effortless and enjoyable.
+
+![SSHM Demo](imgs/SSHM.gif)
+
+**Features:**
+- TUI and CLI (`sshm`, `sshm <host>`) with vim-style shortcuts
+- Works with `~/.ssh/config`, Include directives, and custom config paths
+- Port forwarding (local, remote, dynamic/SOCKS) with history
+- Tags, search, live connectivity status, and connection history
+- Add, edit, move hosts; automatic config backups; cross-platform
 
 ### [Smassh](https://github.com/kraanzu/smassh)
 Smassh your Keyboard, TUI Edition - a keyboard testing and training tool.
