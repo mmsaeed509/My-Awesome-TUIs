@@ -25,10 +25,15 @@
   - [asitop](#asitop)
   - [WaveMon](#wavemon)
   - [witr](#witr)
+  - [NetWatch](#netwatch)
+  - [BatCLI](#batcli)
+  - [UptimeKit](#uptimekit)
 - [🛠️ Development Tools](#️-development-tools)
   - [LazyGit](#lazygit)
   - [JiraTUI](#jiratui)
   - [Neovate Code](#neovate-code)
+  - [Kairo](#kairo)
+  - [GrayMatter](#graymatter)
 - [🐳 Container Management](#-container-management)
   - [LazyDocker](#lazydocker)
   - [Oxker](#oxker)
@@ -52,6 +57,8 @@
 - [⚙️ Utilities](#️-utilities)
   - [Nushell](#nushell)
   - [SSHM](#sshm)
+  - [HoneyMux](#honeymux)
+  - [Envy](#envy)
   - [Smassh](#smassh)
   - [KBT](#kbt)
   - [Mirro-rs](#mirro-rs)
@@ -74,6 +81,8 @@
 This repository showcases a carefully curated collection of Terminal User Interface (TUI) applications that enhance productivity and provide powerful functionality directly in your terminal. These tools are perfect for developers, system administrators, and power users who prefer keyboard-driven interfaces.
 
 > 💡 **Pro Tip**: Check out [**Exodia-TUI-CLI-Apps**](https://github.com/Exodia-OS/Exodia-TUI-CLI-Apps) for an even more comprehensive collection of TUI applications!
+>
+> 🌐 **Explore More**: Discover trending terminal apps at [**Trending Terminal**](https://itrending.top/).
 
 ## 📂 Categories
 
@@ -161,6 +170,39 @@ witr exists to answer a single question: Why is this running?
 - Context awareness (Git, Docker, Kubernetes)
 - Multiple output formats (Short, Tree)
 
+### [NetWatch](https://github.com/matthart1983/netwatch)
+Real-time network diagnostics in your terminal. One command, zero config, instant visibility.
+
+![NetWatch Demo](imgs/NetWatch.gif)
+
+**Features:**
+- Real-time interface and connection visibility
+- Health probes and packet capture support
+- Timeline and topology views for incident analysis
+- Flight recorder workflow for transient network issues
+
+### [BatCLI](https://github.com/Ooooze/batctl)
+⚡ Battery charge threshold manager for Linux laptops.
+
+![BatCLI Demo](imgs/BatCLI.gif)
+
+**Features:**
+- Interactive TUI and scriptable CLI modes
+- Start/stop battery threshold management
+- Vendor-aware backend auto-detection
+- Persistent settings across reboot/resume
+
+### [UptimeKit](https://github.com/abhixdd/UptimeKit-CLI)
+A modern, cross-platform CLI to monitor websites and APIs.
+
+![UptimeKit Demo](imgs/UptimeKit.png)
+
+**Features:**
+- Live dashboard with uptime and latency metrics
+- HTTP, ICMP, DNS, and SSL monitoring
+- Grouped monitors and webhook alerts
+- Background daemon with desktop notifications
+
 ---
 
 ## 🛠️ Development Tools
@@ -199,6 +241,28 @@ Neovate Code is a code agent to enhance your development. Use it to generate cod
 - Bug fixing and code review
 - Test generation
 - Provider-agnostic with easy model selection
+
+### [Kairo](https://github.com/programmersd21/kairo)
+🤩 Kairo is a fast, keyboard-first terminal task manager in Go 🐹 with offline-first SQLite, Git sync 🔁, fuzzy search 🔍 & Lua plugins 🧩
+
+![Kairo Demo](imgs/Kairo.gif)
+
+**Features:**
+- Offline-first SQLite task storage
+- Keyboard-first TUI with fuzzy search
+- Git sync for portable task workflows
+- Lua plugin system and CLI automation support
+
+### [GrayMatter](https://github.com/angelnicolasc/graymatter)
+Three lines of code to give your AI agents persistent memory. Reduce 90% token consumption while also maintaining quality.
+
+![GrayMatter Demo](imgs/GrayMatter.jpg)
+
+**Features:**
+- Persistent memory layer for MCP-compatible AI agents
+- Significant token reduction through memory recall
+- Works as both CLI tool and Go library
+- Includes terminal dashboard for memory observability
 
 ---
 
@@ -413,6 +477,28 @@ A new type of shell with structured data pipelines and modern UX.
 - Port forwarding (local, remote, dynamic/SOCKS) with history
 - Tags, search, live connectivity status, and connection history
 - Add, edit, move hosts; automatic config backups; cross-platform
+
+### [HoneyMux](https://github.com/honeymux/honeymux)
+Honeymux is a TUI wrapper for tmux that adds a wide range of features and interaction surfaces to your terminal.
+
+![HoneyMux Demo](imgs/HoneyMux.png)
+
+**Features:**
+- Durable tmux-backed workspace for agents, shells, and TUIs
+- Session management, pane tabs, and window tabs
+- Sidebar and toolbar for richer terminal navigation
+- Remote-backed pane stitching for SSH workflows
+
+### [Envy](https://github.com/XENONCYBER/envy)
+A terminal based tool for managing secrets with both tui and cli support.
+
+![Envy Demo](imgs/Envy.webp)
+
+**Features:**
+- Encrypted local vault for API keys and environment secrets
+- TUI browsing and CLI automation in one tool
+- Project/environment organization with quick search
+- Import/export workflows for `.env` management
 
 ### [Smassh](https://github.com/kraanzu/smassh)
 Smassh your Keyboard, TUI Edition - a keyboard testing and training tool.
