@@ -49,6 +49,7 @@
   - [WireMix](#wiremix)
 - [💬 Communication](#-communication)
   - [Discordo](#discordo)
+  - [SSHMail](#sshmail)
 - [☸️ Kubernetes \& DevOps](#️-kubernetes--devops)
   - [K9s](#k9s)
   - [KubeTUI](#kubetui)
@@ -59,6 +60,8 @@
   - [SSHM](#sshm)
   - [HoneyMux](#honeymux)
   - [Envy](#envy)
+  - [evtr](#evtr)
+  - [TUIOS](#tuios)
   - [Smassh](#smassh)
   - [KBT](#kbt)
   - [Mirro-rs](#mirro-rs)
@@ -397,6 +400,17 @@ A lightweight, secure, and feature-rich Discord terminal (TUI) client.
 - Terminal-based communication
 - Low resource usage
 
+### [SSHMail](https://github.com/rolandnsharp/sshmail)
+chat over ssh. no install or passwords. TUI and CLI
+
+![SSHMail Demo](imgs/SSHMail.gif)
+
+**Features:**
+- Encrypted messaging over SSH with public-key identity
+- No install required for hosted usage (`ssh sshmail.dev`)
+- Built-in TUI and JSON-friendly CLI commands
+- Supports inbox, public boards, groups, and file attachments
+
 ---
 
 ## ☸️ Kubernetes & DevOps
@@ -499,6 +513,30 @@ A terminal based tool for managing secrets with both tui and cli support.
 - TUI browsing and CLI automation in one tool
 - Project/environment organization with quick search
 - Import/export workflows for `.env` management
+
+### [evtr](https://github.com/hal3e/evtr)
+`evtr` is a TUI for inspecting Linux evdev input devices.
+
+![evtr Demo](imgs/evtr.png)
+
+**Features:**
+- Live monitoring for `/dev/input/event*` devices
+- Inspect axes, buttons, hats, and touch state
+- Device selector and monitor views built for Linux evdev
+- Configurable controls with strict TOML config validation
+
+### [TUIOS](https://github.com/Gaurav-Gosain/tuios)
+TUIOS is a modern terminal multiplexer and window manager built with Go. It provides a vim-like modal interface with multiple terminal panes, workspaces, BSP tiling, kitty graphics protocol support, and a command palette - all running inside your existing terminal.
+
+Built on the Charm stack (Bubble Tea v2, Lipgloss v2), TUIOS features event-driven rendering for near-zero idle CPU usage, flicker-free kitty image passthrough, and comprehensive keyboard/mouse interaction.
+
+![TUIOS Demo](imgs/TUIOS.gif)
+
+**Features:**
+- Vim-like modal workflow with panes, workspaces, and tiling
+- BSP layout engine and command palette for fast navigation
+- Kitty graphics protocol support with flicker-free passthrough
+- Event-driven rendering architecture for low idle CPU usage
 
 ### [Smassh](https://github.com/kraanzu/smassh)
 Smassh your Keyboard, TUI Edition - a keyboard testing and training tool.
