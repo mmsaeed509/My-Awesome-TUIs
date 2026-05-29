@@ -26,6 +26,7 @@
   - [WaveMon](#wavemon)
   - [witr](#witr)
   - [NetWatch](#netwatch)
+  - [Nibble](#nibble)
   - [BatCLI](#batcli)
   - [UptimeKit](#uptimekit)
 - [🛠️ Development Tools](#️-development-tools)
@@ -47,6 +48,9 @@
   - [Posting](#posting)
   - [Feroxbuster](#feroxbuster)
   - [WireMix](#wiremix)
+  - [MapSCII](#mapscii)
+  - [PulseDeck](#pulsedeck)
+  - [Vibez](#vibez)
 - [💬 Communication](#-communication)
   - [Discordo](#discordo)
   - [SSHMail](#sshmail)
@@ -55,6 +59,7 @@
   - [KubeTUI](#kubetui)
   - [Updo](#updo)
   - [Stakpak](#stakpak)
+  - [CronBoard](#cronboard)
 - [⚙️ Utilities](#️-utilities)
   - [Nushell](#nushell)
   - [SSHM](#sshm)
@@ -183,6 +188,19 @@ Real-time network diagnostics in your terminal. One command, zero config, instan
 - Health probes and packet capture support
 - Timeline and topology views for incident analysis
 - Flight recorder workflow for transient network issues
+
+### [Nibble](https://github.com/backendsystems/nibble)
+Nibble is a CLI tool for local network scanning that focuses on speed and ease of use.
+
+Select a network interface, and it scans your local subnet. Lists hosts, hardware manufacturer, open ports and their services.
+
+![Nibble Demo](imgs/Nibble.gif)
+
+**Features:**
+- Fast local subnet scanning with clickable TUI and mouse support
+- Host discovery with vendor identification and open port/service detection
+- Docker/WSL network support and scan history
+- Headless mode with JSON output for scripting
 
 ### [BatCLI](https://github.com/Ooooze/batctl)
 ⚡ Battery charge threshold manager for Linux laptops.
@@ -384,6 +402,41 @@ Simple TUI audio mixer for PipeWire.
 - Simple keyboard-driven interface
 - Real-time level monitoring
 
+### [MapSCII](https://github.com/rastapasta/mapscii)
+🗺 MapSCII is a Braille & ASCII world map renderer for your console — enter `telnet mapscii.me` on Mac (`brew install telnet`) and Linux, or connect with PuTTY on Windows.
+
+![MapSCII Demo](imgs/MapSCII.png)
+
+**Features:**
+- Interactive Braille and ASCII world map in the terminal
+- Mouse drag/zoom and keyboard navigation
+- POI discovery and customizable Mapbox-style layers
+- Works with public/private vector tile servers and offline MBTiles
+
+### [PulseDeck](https://github.com/milgaj84/pulsedeck)
+Cyber-synthwave internet radio player for the terminal. Stream any station, record tracks automatically with smart ad filtering, sorted into genre folders. Built in Rust.
+
+![PulseDeck Demo](imgs/PulseDeck.png)
+
+**Features:**
+- Stream internet radio stations from the terminal
+- Automatic track recording with smart ad filtering
+- Genre-sorted library organization
+- Rust-based TUI with synthwave-style UX
+
+### [Vibez](https://github.com/simonepelosi/vibez)
+vibez is an open-source TUI Apple Music player for Linux and macOS. Search, queue, and control playback entirely from the keyboard.
+
+Full tracks stream via Chrome with Widevine DRM. On Linux amd64, Chrome is auto-downloaded into vibez's private cache; on other Linux builds, WebKit + GStreamer remains available as a 30-second preview backend. On macOS, install Google Chrome before using Apple Music playback.
+
+![Vibez Demo](imgs/PulseDeck.png.webp)
+
+**Features:**
+- Keyboard-first Apple Music search, queue, and playback control
+- Full-track streaming via Chrome/Widevine on supported platforms
+- Linux amd64 auto-downloads Chrome into a private cache
+- WebKit + GStreamer preview fallback on other Linux builds
+
 ---
 
 ## 💬 Communication
@@ -461,6 +514,17 @@ AI DevOps Agent in your Terminal.
 - Intelligent workflow management
 - DevOps task automation
 - Infrastructure management assistance
+
+### [CronBoard](https://github.com/antoniorodr/cronboard)
+A terminal-based dashboard for managing cron jobs locally and on servers.
+
+![CronBoard Demo](imgs/CronBoard.gif)
+
+**Features:**
+- Create, edit, pause, resume, and delete cron jobs from a Textual TUI
+- View logs, last/next run times, and validation feedback
+- SSH support for remote servers (password or key)
+- Search jobs and manage another user's crontab with sudo
 
 ---
 
