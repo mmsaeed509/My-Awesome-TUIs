@@ -26,6 +26,7 @@
   - [WaveMon](#wavemon)
   - [witr](#witr)
   - [NetWatch](#netwatch)
+  - [Kilobat CLI](#kilobat-cli)
   - [Nibble](#nibble)
   - [BatCLI](#batcli)
   - [UptimeKit](#uptimekit)
@@ -188,6 +189,19 @@ Real-time network diagnostics in your terminal. One command, zero config, instan
 - Health probes and packet capture support
 - Timeline and topology views for incident analysis
 - Flight recorder workflow for transient network issues
+
+### [Kilobat CLI](https://github.com/seifip/kilobat-cli)
+A macOS network diagnostic CLI with a keyboard-driven terminal menu and JSON output for scripts and agents.
+
+![Kilobat CLI menu navigation demo](imgs/Kilobat-CLI.gif)
+
+**Features:**
+- Keyboard navigation with arrow keys or j/k, and q to quit
+- Layer-by-layer connection checks for websites and APIs
+- JSON output and a local stdio MCP server
+- macOS 14+; the Homebrew source build requires Xcode 16+/Swift 6
+
+The GPL-3.0-only CLI is separate from the proprietary desktop app, which supplies some companion data and enforcement features.
 
 ### [Nibble](https://github.com/backendsystems/nibble)
 Nibble is a CLI tool for local network scanning that focuses on speed and ease of use.
